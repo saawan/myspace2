@@ -1,0 +1,51 @@
+<div class="trillo-table">
+  <div>
+    <table data-container class="table table-striped table-bordered">
+      <thead>
+        <tr data-table-header>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-table-row>
+          <td data-component="readonly">
+            <span data-field></span>
+          </td>
+          <td data-component="checkbox">
+            <div class="custom-control custom-checkbox">
+              <input data-field type="checkbox" class="custom-control-input" id="use-name">
+              <label data-label class="custom-control-label">Checkbox</label>
+            </div>
+          </td>
+          <td data-radios-container data-component="radio">
+            <div data-radio-container class="custom-control custom-radio">
+              <input data-field type="radio" id="use-name" name="use-name" class="custom-control-input">
+              <label data-label data-radio-label class="custom-control-label">Radio</label>
+            </div>
+          </td>
+          <td data-component="select">
+            <select disabled data-field class="form-control custom-select">
+            <option>1</option>
+            <option>2</option>
+          </select>
+          </td>
+          <td data-component="datetime">
+            <span data-field format="M/D/YY - h:mm A"></span>
+          </td>
+          <td data-component="datetime-local">
+            <span data-field format="M/D/YY - h:mm A"></span>
+          </td>
+          <td data-component="date">
+            <span data-field format="M/D/YY"></span>
+          </td>
+          <td data-component="time">
+            <span data-field format="h:mm A"></span>
+          </td>
+          <td data-component="button">
+            <button type="button" class="btn btn-sm btn-primary">Button</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

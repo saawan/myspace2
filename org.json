@@ -1,0 +1,15 @@
+{
+  "authChoice" : "1",
+  "gitConnected" : false,
+  "logos" : {
+    "logoStamp" : "/myspace2/shared/static/img/logo-stamp.png"
+  },
+  "name" : "myspace2",
+  "rtChoice" : "custom",
+  "rtServerUrlDev" : "https://rt.com:8020",
+  "rtServerUrlInt" : "https://rt.com:8020",
+  "rtServerUrlProduction" : "https://rt.com:8020",
+  "rtServerUrlQA" : "https://rt.com:8020",
+  "rtServerUrlStaging" : "http://34.73.187.113",
+  "rtUrl" : "https://rt.com:8020"
+}

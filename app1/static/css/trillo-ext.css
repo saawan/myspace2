@@ -1,0 +1,68 @@
+/* --------------------------------------------------------------------------------------------------------- */
+.trillo-user-picture {
+  height: 36px;
+  border-radius: 50%;
+  margin: auto;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+.trillo-dt-container {
+  overflow-x: auto;
+  border: 5px solid #eee;
+}
+
+.trillo-table .dt-buttons {
+  text-align: right;
+  display: block;
+}
+
+.trillo-dt-top {
+  display: block;
+  padding: 10px;
+  text-align: right;
+}
+
+.trillo-dt-top .dataTables_length {
+  flex-grow: 1;
+}
+
+.trillo-dt-filter {
+  display: flex;
+  padding: 10px;
+}
+
+.trillo-dt-top .dataTables_length label {
+  line-height: 38px;
+  margin-bottom: 0;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+  margin-bottom: 0;
+  width: 400px;
+  max-width: 60%;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+  flex-grow: 1;
+  text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter label input {
+  margin-left: 0;
+  width: 100%;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+  padding: 10px;
+}
+
+table.dataTable {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
